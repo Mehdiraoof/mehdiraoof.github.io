@@ -97,6 +97,7 @@ numbers. Everything else stays quiet so those pop. Never turn this into a generi
 - Small, focused commits. Clear messages in the imperative mood
   (e.g. `Add tools page with SEO extension entry`).
 - Prefer surgical edits to the relevant file over regenerating whole files.
+- Do not add `Co-Authored-By` (or other AI attribution) trailers to commit messages.
 - Deploy is automatic: committing to `main` publishes to the live site via GitHub Pages.
 
 ## Decisions log / open items
