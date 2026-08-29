@@ -70,6 +70,10 @@ numbers. Everything else stays quiet so those pop. Never turn this into a generi
 - Structured data (JSON-LD): **Person** on Home, **SoftwareApplication** for each tool,
   **BlogPosting / Article** for each blog post.
 - Maintain `sitemap.xml` and `robots.txt` at the site root. Add new pages to the sitemap.
+- When you meaningfully change a page, update that page's `lastmod` in `sitemap.xml` to
+  the current date (`YYYY-MM-DD`). Only for real content changes — never for trivial edits
+  like typo fixes, and never fake a fresh date. An accurate `lastmod` is a trust signal to
+  Google; a stale or dishonest one makes Google ignore the field.
 - Fast, lightweight, accessible: alt text on images, visible focus states, good color
   contrast, no layout shift.
 - Clean, descriptive URLs (`/tools/seo-extension/`, not query strings).
