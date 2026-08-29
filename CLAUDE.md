@@ -74,6 +74,9 @@ numbers. Everything else stays quiet so those pop. Never turn this into a generi
   the current date (`YYYY-MM-DD`). Only for real content changes — never for trivial edits
   like typo fixes, and never fake a fresh date. An accurate `lastmod` is a trust signal to
   Google; a stale or dishonest one makes Google ignore the field.
+- Keep `llms.txt` at the site root in sync with the live site. Whenever a page is added
+  or meaningfully changed, update `llms.txt` in the same commit — add, remove, or refresh
+  that page's link and one-line description so it always matches what's actually published.
 - Fast, lightweight, accessible: alt text on images, visible focus states, good color
   contrast, no layout shift.
 - Clean, descriptive URLs (`/tools/seo-extension/`, not query strings).
