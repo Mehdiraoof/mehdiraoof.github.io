@@ -89,6 +89,10 @@ numbers. Everything else stays quiet so those pop. Never turn this into a generi
   moves to Jekyll.
 - When the blog arrives, introduce **Jekyll** with shared layouts/includes so style
   stays in one place across Home, Blog, and Tools.
+- **Analytics:** every page must include the Google Tag Manager snippets (container
+  `GTM-MJTHWQ88`) — the `<script>` as high as possible in the `<head>` (ideally right
+  after the opening `<head>` tag), and the `<noscript>` iframe immediately after the
+  opening `<body>` tag. Any new page you create includes both automatically.
 
 ## Rules and gotchas
 
