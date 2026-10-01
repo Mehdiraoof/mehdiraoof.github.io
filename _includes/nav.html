@@ -1,0 +1,18 @@
+<header class="nav">
+  <div class="nav-inner">
+    <a href="{{ '/' | relative_url }}#top" class="brand">Mehdi<span>.</span>Raoof</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="{{ '/' | relative_url }}#impact">Impact</a>
+      <a href="{{ '/' | relative_url }}#focus">Focus</a>
+      <a href="{{ '/' | relative_url }}#experience">Experience</a>
+      <a href="{{ '/' | relative_url }}#skills">Skills</a>
+      <!-- Blog and Tools: enable once those pages exist -->
+      <a href="{{ '/blog/' | relative_url }}" hidden>Blog</a>
+      <a href="{{ '/tools/' | relative_url }}" hidden>Tools</a>
+      <a href="{{ '/' | relative_url }}#contact" class="nav-cta">Get in touch</a>
+    </nav>
+  </div>
+</header>

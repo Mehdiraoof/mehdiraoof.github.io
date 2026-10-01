@@ -1,0 +1,16 @@
+title: "Mehdi Raoof — Senior SEO/GEO Lead"
+description: "Mehdi Raoof is a Senior SEO/GEO Lead with 10 years growing organic and AI search traffic for e-commerce, travel, and agencies. Technical SEO, automation, GEO/AEO/LLMO, and content strategy."
+url: "https://mehdiraoof.github.io"
+baseurl: ""
+theme: null
+
+permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
