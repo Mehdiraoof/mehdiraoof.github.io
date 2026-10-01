@@ -5,8 +5,9 @@ style, and rules for this website so every change stays consistent. Follow it.
 
 ## What this project is
 
-A personal CV and portfolio site for **Mehdi Raoof, Senior SEO Specialist** (8 years,
-3 leading teams). Hosted free on **GitHub Pages** at `https://mehdiraoof.github.io`.
+A personal CV and portfolio site for **Mehdi Raoof, Senior SEO/GEO Lead** (10 years,
+4 years leading teams at Espard and byFood). Hosted free on **GitHub Pages** at
+`https://mehdiraoof.github.io`.
 The site should quietly demonstrate SEO best practice in its own markup, because the
 owner is an SEO professional and the site is itself a work sample.
 
@@ -61,6 +62,9 @@ numbers. Everything else stays quiet so those pop. Never turn this into a generi
 - Each job = one short context line plus its 2–3 best wins as small tags.
 - Skills are grouped chips, not long lists.
 - Write in a warm, human, expert voice. First person is fine and welcome.
+- **Approved stat:** the homepage line "over $100K a month from organic search alone"
+  is approved and must stay. Other results should use relative numbers (percentages,
+  before/after), not additional absolute dollar figures.
 
 ## SEO requirements (non-negotiable, this is the owner's craft)
 
