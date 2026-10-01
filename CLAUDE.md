@@ -115,6 +115,14 @@ numbers. Everything else stays quiet so those pop. Never turn this into a generi
 - Do not add `Co-Authored-By` (or other AI attribution) trailers to commit messages.
 - Deploy is automatic: committing to `main` publishes to the live site via GitHub Pages.
 
+## Git workflow
+
+- Never push directly to `main`. For every change: create a branch, commit, push it,
+  open a PR, merge the PR yourself, delete the branch, then pull `main` locally.
+- Never wait for the owner to merge — merge it yourself as part of finishing the change.
+- Exception: if a change touches `google0cfa74813d6a62aa.html`, ask the owner first
+  before doing anything. Once approved, ship it through the same branch/PR/merge flow.
+
 ## Decisions log / open items
 
 - Location tag currently shows "Istanbul" in the hero — confirm or change.
