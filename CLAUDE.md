@@ -162,5 +162,7 @@ numbers. Everything else stays quiet so those pop. Never turn this into a generi
 
 - Location tag currently shows "Istanbul" in the hero — confirm or change.
 - Custom domain deferred for now; owner may buy one later (plan a clean migration then).
-- Done: Jekyll migration, the sitemap fix, and the Tools hub. Next planned: tool
-  landing pages, privacy pages for the extensions, and the blog.
+- Done: Jekyll migration, the sitemap fix, and the Tools hub.
+- Next planned: tool landing pages, privacy pages for the extensions, the blog, and
+  homepage upgrades (social preview image as og:image, Download CV button, ProfilePage
+  schema).
