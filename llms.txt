@@ -12,3 +12,4 @@
 ## Pages
 
 - [Home / CV](https://mehdiraoof.github.io/): Full CV — impact metrics, focus areas, experience timeline (byFood, Voetbaltrips, The VArgo, Espard, Websima, Bamilo), skills, and contact.
+- [Tools](https://mehdiraoof.github.io/tools/): Free Chrome extensions Mehdi built for SEO work. HTTP Status Checker for SEOs (live on the Chrome Web Store: bulk HTTP status checks from a pasted list or a CSV/XLSX file, results grouped by status code and exported as CSV), plus Page Pulse and Advanced Search for SEOs (in development).
