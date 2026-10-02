@@ -14,3 +14,11 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+
+# Keep the Search Console verification file out of sitemap.xml
+# (front matter defaults, so the file itself is never touched)
+defaults:
+  - scope:
+      path: "google0cfa74813d6a62aa.html"
+    values:
+      sitemap: false
