@@ -390,7 +390,7 @@
   .prose .tool-feats{padding-left:0}
   .updated{
     font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:0.04em;
-    color:var(--faint);margin-top:18px;
+    color:var(--muted);margin-top:18px;
   }
   .prose p.prose-links{margin-top:48px;padding-top:22px;border-top:1px solid var(--line);font-size:14.5px}
   .hero-sub{padding-bottom:40px}
