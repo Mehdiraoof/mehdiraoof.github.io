@@ -356,3 +356,42 @@
   .tool-feats code{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--text)}
   .tool-card .cta-row{margin-top:22px}
   @media (prefers-reduced-motion:reduce){.tool-card,.tool-card:hover{transition:none;transform:none}}
+
+  /* ---------- PULSEO / PROSE ---------- */
+  .feature-card h3{
+    font-family:'Bricolage Grotesque',sans-serif;
+    font-weight:700;font-size:20px;letter-spacing:-0.01em;margin-bottom:10px;
+  }
+  .feature-card p{color:var(--muted);font-size:14.5px}
+  .steps{list-style:none;display:grid;gap:16px;counter-reset:step;max-width:720px}
+  .steps li{
+    counter-increment:step;position:relative;
+    border:1px solid var(--line);border-radius:18px;background:var(--bg-2);
+    padding:22px 24px 22px 66px;color:var(--text);font-size:16px;
+  }
+  .steps li::before{
+    content:counter(step);position:absolute;left:26px;top:22px;
+    font-family:'JetBrains Mono',monospace;font-size:14px;color:var(--mango-solid);
+  }
+  .prose{max-width:720px}
+  .prose p,.prose li{color:var(--muted);font-size:16px}
+  .prose p{margin-top:14px}
+  .prose p:first-child{margin-top:0}
+  .prose strong{color:var(--text);font-weight:600}
+  .prose a{color:var(--mango-solid);text-decoration:underline;text-underline-offset:3px}
+  .prose a:hover{color:var(--text)}
+  .prose h2{
+    font-family:'Bricolage Grotesque',sans-serif;font-weight:700;
+    font-size:clamp(22px,3.2vw,28px);letter-spacing:-0.02em;line-height:1.15;
+    color:var(--text);margin-top:44px;
+  }
+  .prose h2 + p,.prose h2 + ul{margin-top:14px}
+  .prose ul{margin-top:14px;padding-left:22px;display:grid;gap:8px}
+  .prose .tool-feats{padding-left:0}
+  .updated{
+    font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:0.04em;
+    color:var(--muted);margin-top:18px;
+  }
+  .prose p.prose-links{margin-top:48px;padding-top:22px;border-top:1px solid var(--line);font-size:14.5px}
+  .hero-sub{padding-bottom:40px}
+  .hero-sub h1{font-size:clamp(34px,5.5vw,56px)}
